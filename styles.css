@@ -1,7 +1,49 @@
-body {
-    background-color: #FFC067;
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+    font-family: 'Courier New', Courier, monospace;
+    /* For development purpose only. */
+    /* border: 1px solid red; */
 }
 
+body {
+    background-color: orange;
+}
+
+/* index.html CSS */
+#menu-container {
+    background-color: white;
+    max-width: 600px;
+    height: 500px;
+    border-radius: 24px;
+    margin-top: 170px;
+}
+
+#menu-title {
+    text-align: center;
+    padding: 16px;
+    border-bottom: 1px solid grey;
+    font-size: 40px;
+}
+
+#menu-list {
+    font-size: 24px;
+    margin: 32px;
+    list-style-type: none;
+    padding: 0;
+}
+
+li.menu-link{
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* recipes.html CSS */
 h2, h3 {
     margin-top: 0px;
 }
